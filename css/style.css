@@ -1,0 +1,75 @@
+body {
+  max-height: 100%;
+  max-height: 100%;
+  padding-top: 56px;  /* Отступ сверху для фиксированного меню */
+  background-color: antiquewhite;
+}
+form
+{
+width: 900px;
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex; 
+align-items: center; 
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+h3
+{
+  margin-top: 20px;
+   text-align: center;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.row
+{
+  align-items: center; 
+justify-content: center;
+}
+footer
+{
+  position: absolute;
+  width: 100%;
+}
+button
+{
+  margin-left: 5px;
+}
+.card-body
+{
+
+  width: 400px;
+}
+.container-fluid
+{
+  height: 220px;
+}
+
+
+@media screen and (max-width: 980px) {
+  body
+  {
+    padding-top: 56px;  /* Отступ сверху для фиксированного меню */
+    background-color: aqua;
+  }
+  form
+{
+width: 350px;
+padding-top: 20px;
+display: flex; 
+align-items: center; 
+justify-content: center;
+}
+.card-body
+{
+  width: 180px;
+}
+.row
+{
+  align-items: center; 
+justify-content: center;
+}
+}
