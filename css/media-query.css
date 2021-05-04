@@ -1,0 +1,245 @@
+@media (max-width: 1920px)
+{
+form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color: gold;
+ font-size:40px;
+}
+.card-body
+{
+    width: 800px;
+}
+img
+{
+    width: 350px;
+    height: 200px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 250px;
+}
+}
+
+
+
+
+
+@media (max-width: 1600px)
+{
+    form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color:greenyellow;
+ font-size:50px;
+}
+.card-body
+{
+    width: 800px;
+}
+img
+{
+    width: 350px;
+    height: 200px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 250px;
+}
+}
+
+
+
+
+
+@media (max-width: 1366px)
+{
+    form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color:red;
+ font-size:35px;
+}
+.card-body
+{
+    width: 800px;
+}
+img
+{
+    width: 350px;
+    height: 200px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 250px;
+}
+}
+
+
+
+
+@media (max-width: 1024px)
+{
+    form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color:brown;
+ font-size:35px;
+}
+.card-body
+{
+    width: 550px;
+}
+img
+{
+    width: 300px;
+    height: 200px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 250px;
+}
+}
+
+@media (max-width: 800px)
+{
+    form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color:blue;
+ font-size:35px;
+}
+.card-body
+{
+    width: 450px;
+}
+img
+{
+    width: 250px;
+    height: 200px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 250px;
+}
+}
+
+
+@media (max-width: 480px)
+{
+    form
+{
+    height: auto;
+    width: auto;
+}
+h3
+{
+    color:green;
+ font-size:25px;
+}
+.card-body
+{
+    width: 300px;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+}
+a
+{
+    font-size: 25px;
+}
+h5
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 22px;
+}
+.container-fluid
+{
+    height: 180px;
+}
+}
