@@ -1,17 +1,23 @@
 body {
   padding-top: 56px;  /* Отступ сверху для фиксированного меню */
   background-color: antiquewhite;
+  overflow-x: hidden;
 }
+
 form
 {
 width: 900px;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 40px;
+padding-bottom: 60px;
 display: flex; 
 align-items: center; 
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+}
+.text
+{
+padding: 40px;
 }
 h3
 {
@@ -19,6 +25,7 @@ h3
   margin-top: 20px;
    text-align: center;
 }
+
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
@@ -28,12 +35,15 @@ h3
   align-items: center; 
 justify-content: center;
 }
-footer
+.footer
 { 
-  position: fixed;
-  left: 0; 
+  height: 50px;
+  left: 0;
   bottom: 0;
   width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 button
 {
@@ -43,15 +53,25 @@ button
 {
   width: 450px;
 }
-.container-fluid
-{
-  height: 180px;
-}
 img
 {
   width: 200px;
-  height: 170px;
+  height: 100%;
 }
 h1{
   font-size: 25px;
 }
+h4{
+  font-size: 18px;
+}
+.btn-cont
+{
+  float: right;
+  margin-top: 6em;
+}
+.card
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
