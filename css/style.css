@@ -43,7 +43,7 @@ button
 }
 .card-body
 {
-
+  position: relative;
   width: 450px;
 }
 img
@@ -107,6 +107,7 @@ h4{
 
 .text-in
 {
-  text-align: top;
-  float: right; 
+  position: absolute;
+  
+
 }
