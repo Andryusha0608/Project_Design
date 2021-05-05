@@ -15,6 +15,7 @@
   <link href = "css/media-query.css" rel="stylesheet">
   <link href="media-queries.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <script src = "js/script.js"></script>
 
 </head>
 
@@ -48,23 +49,54 @@
                <label for="input" class="sr-only">Лекарства</label>
         <input type="search" class="form-control" id="input" placeholder="Введите название лекарства">
         <button type="submit" class="btn btn-primary">  
-            <i class="fas fa-search"></i>
+          <i class="fas fa-search"></i>
+      </button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Город
         </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Омск</a>
+          <a class="dropdown-item" href="#">Москва</a>
+          <a class="dropdown-item" href="#">Питер</a>
+      </div> 
+      </div>    
     </form>
       </div>
       
       
       
-
-
-     
+    <div class = "filt-cont">
     <div class="row">
+      <div class="btn-group">
+        <button type = "button" class = "btn btn-info" disabled = "disabled">Фильтр по: </button>
+        <button type="button" class="btn btn-warning">Аптекам</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Фармакопейка</a>
+          <a class="dropdown-item" href="#">Магнит аптека</a>
+          <a class="dropdown-item" href="#">Семейная аптека</a>
+        </div>
+        <button type="button" class="btn btn-success">Ценам</button>
+        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">100-249</a>
+          <a class="dropdown-item" href="#">250-799</a>
+          <a class="dropdown-item" href="#">800-1500</a>
+          <a class="dropdown-item" href="#">Свыше 1500</a>
+      </div>
+      </div>
             <div class="card">
                 <div class="card-horizontal">
                     <div class="img-square-wrapper">
                         <img class="" src="img/Кот.jpg" alt="Card image cap">
                     </div>
                     <div class="card-body">
+                      
                         <h5 class="card-title">Название лекарства</h5>
                         <p class="card-text">Описание</p>
                         <div class = "btn-cont">
@@ -84,6 +116,15 @@
                     <div class="card-body">
                         <h5 class="card-title">Название лекарства</h5>
                         <p class="card-text">Описание</p>
+
+
+                        <div class = "text-in">
+                          <h5 class="card-title">Название аптеки</h5>
+                          <p class="card-text">Цена:</p>
+                        </div>
+
+
+                        
                         <div class = "btn-cont">
                           <button class="btn btn-danger">Показать на карте</button>
                         </div>
@@ -102,14 +143,19 @@
                     <div class="card-body">
                         <h5 class="card-title">Название лекарства</h5>
                         <p class="card-text">Описание</p>
+
+
                         <div class = "btn-cont">
                           <button class="btn btn-danger">Показать на карте</button>
                         </div>
+
+
                     </div>
                 </div>
             </div>
     </div>
-  
+  </div>
+
 
    
  <!-- Footer -->
